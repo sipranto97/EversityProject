@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.logo{
+    font-family: 'Abril Fatface', cursive;
+}
+.logoT{
+    color: crimson;
+}
+.logoT:hover{
+   
+    color: crimson;
+    text-decoration: none;
+}
+.item{
+    padding-left: 20px;
+
+}
+.navItem{
+    color: #843B62;
+}
+.navItem:hover{
+    color:#81b29a;
+    
+    text-decoration: none;
+}
+.course_content{
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    background: #003049;
+    border-bottom: 1px solid #10002b; 
+    box-shadow: 3px 3px 3px 3px #1b4332;
+}
+
+
+.reg_body{
+    background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(./images/bg01.jpg);
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+    background-position: center; 
+    
+    
+}
+.login-box{
+    max-width: 750px;
+    float: none;
+    margin: 150px auto;
+}
+.login-left{
+    background:rgba(211, 211, 211, 0.5) ;
+    padding: 30px;
+}
+.login-right{
+    background:rgba(173,255,47, 0.5) ;
+    padding: 30px;
+}
+
+.catagory_home{
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+.catagory_home_item{
+    color: #2a9d8f;
+}
+.item_catagory{
+padding-left: 35px;
+}
+.catagory_home_item:hover{
+    color:#843B62;
+    
+    text-decoration: none;
+}
+.home_front_image{
+    background-image: url("./images/home_front_bg.jpg");
+    min-height: 400px;
+    
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.coursePageContent:hover{
+    background-color: #e8e8e4;   
+    box-shadow: 2px 2px 2px 2px #ddbea9;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.cvHeader{
+    background-color: #10002b;
+    font-family: 'Ubuntu', sans-serif;
+    color: #f5f3f4;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.courseDescription{
+    background-color: #faf3dd;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.enrollCard{
+    font-family: 'Noto Serif', serif;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.contentList{
+    color: #10002b;
+    background-color:white;
+    box-shadow: 1px 1px 1px 1px grey;
+    transition: 0.3s;
+}
+.contentList:hover{
+    background-color: #a5a58d;
+    color: white;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.reviewBlock{
+    background-color: burlywood;
+    padding: 10px;
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.reviewBox{
+    height: 100px;
+    width: 250px;
+}
